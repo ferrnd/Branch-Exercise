@@ -1,5 +1,9 @@
-function mediaArray ( num1, num2, num3 )  {
-    return (num1 + num2 + num3) / 3 ;
+function mediaArray (array)   {
+    soma = 0
+    for(let i = 0;i<array.length;i++){
+        soma+= array[i]
+    }
+    return soma /3
 }
 
-console.log ( mediaArray (8, 9, 10))
+console.log ( mediaArray ([8, 9, 10]))
